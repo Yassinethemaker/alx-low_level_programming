@@ -2,11 +2,11 @@
 
 /**
  * main - print the size of various types on the computer
- * return:0
+ *
+ * Return:0
  */
 int main(void)
 {
-
 	/* sizeof evaluates the size of a variable */
 	printf("Size of a char: %lu byte(s)\n", sizeof(char));
 	printf("Size of an int: %lu byte(s)\n", sizeof(int));
@@ -15,5 +15,4 @@ int main(void)
 	printf("Size of a float: %lu byte(s)\n", sizeof(float));
 
 	return (0);
-
 }
