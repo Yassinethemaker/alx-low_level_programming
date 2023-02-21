@@ -22,7 +22,7 @@ int main(void)
 			if (n == 7 && x == 8 && z == 9)
 			continue;
 
-			putchar(',')
+			putchar(',');
 			putchar(' ');
 			}
 		}
