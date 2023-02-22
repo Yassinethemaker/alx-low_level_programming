@@ -1,18 +1,12 @@
-#include <stdio.h>
+#include <unistd.h>
+#include "holberton.h"
 
 /**
- * main - prints the string "_putchar" from a character array.
- * Return: 0 on success.
- */
-int main(void)
+ * _putchar - writes the character c to stdout
+ * 
+ * Return: On success 1.
+ */ 
+int _putchar(char c)
 {
-	char c[] = "_putchar";
-	int i;
-
-	for (i = 0; i < 9; i++)
-	{
-		_putchar(c[i]);
-	}
-	_putchar('\n');
-	return (0);
+	return (write(1, &c, 1));
 }
